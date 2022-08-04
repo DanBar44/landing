@@ -1,0 +1,155 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#subtitle {
+  margin-top: 60px
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+/* banner */
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/background2.png) ;
+  background-size: cover;
+  background-position: center;
+  padding: 300px 0 50px 0;
+}
+.banner h1 {
+  color: white;
+  text-shadow: .5px .5px 0px rgb(0, 0, 0);
+}
+
+.banner p {
+  color: white;
+  opacity: .7;
+  font-size: 20px;
+  text-shadow: .5px .5px 0px rgb(0, 0, 0);
+}
+
+.btn-primary {
+  background-color: #1cdd87;
+  color: #FFFFFF;
+  padding: 15px 25px;
+  border-radius: 50px;
+  display: inline-block;
+  transition: .65s;
+  }
+
+.btn-primary:hover {
+  background-color: #f99e2e;
+  transition: .65s;
+
+}
+
+
+/* banner */
+
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.card img {
+  height: 100px;
+}
+
+.card p {
+  opacity: .5;
+}
+
+.card {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  text-align: center;
+  padding: 25px;
+  margin: 12px
+}
+
+  /* footer */
+.footer {
+  background-color: #2C2B2B;
+  text-align: center;
+  padding: 60px;
+}
+
+.footer p {
+  color: white;
+  opacity: .7;
+  font-size: 20px;
+}
+
+.social-links {
+  list-style: none;
+  padding-left: 0px;
+  transition: .5s;
+}
+
+.social-links li {
+  display: inline;
+  padding: 15px;
+  transition: .5s;
+}
+.social-links i {
+  font-size: 45px;
+  color: #1cdd87;
+  transition: .65s;
+}
+.social-links i:hover {
+  color: #f99e2e;
+  transform: scale(1.65);
+  transition: .65s;
+}
+
+.footer .fas {
+  color: #ef2222;
+}
+
+  /* responsive */
+
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
